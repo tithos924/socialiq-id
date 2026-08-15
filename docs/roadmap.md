@@ -39,4 +39,5 @@ previous one is reported complete.
 **Phase 2 — Authentication and multi-tenancy: complete.**
 **Phase 3 — Database and RLS: complete.**
 **Phase 4 — Dashboard UI: complete.**
-**Phase 5 — Business profile (onboarding): next.**
+**Phase 5 — Business profile (onboarding): complete.**
+**Phase 6 — Social integrations: next.**

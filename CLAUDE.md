@@ -92,6 +92,7 @@ instrument dial (`src/components/social-score-dial.tsx`), not a generic
 
 ## Current status
 
-Phases 1–4 complete (foundation, auth/multi-tenancy, full database schema
-with RLS, dashboard UI shell with design system). See `docs/roadmap.md`.
-Next: Phase 5 (Business profile / onboarding flow).
+Phases 1–5 complete (foundation, auth/multi-tenancy, full database schema
+with RLS, dashboard UI shell with design system, business profile
+onboarding wizard). See `docs/roadmap.md`. Next: Phase 6 (Social
+integrations — Meta/Instagram + Facebook first).

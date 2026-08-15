@@ -19,7 +19,7 @@ export default async function DashboardLayout({
 
   const { data: membership } = await supabase
     .from("organization_members")
-    .select("organizations(name)")
+    .select("organization_id, organizations(name)")
     .eq("user_id", user.id)
     .limit(1)
     .maybeSingle()
@@ -27,6 +27,18 @@ export default async function DashboardLayout({
   const org = Array.isArray(membership?.organizations)
     ? membership?.organizations[0]
     : membership?.organizations
+
+  if (membership) {
+    const { data: profile } = await supabase
+      .from("business_profiles")
+      .select("id")
+      .eq("organization_id", membership.organization_id)
+      .maybeSingle()
+
+    if (!profile) {
+      redirect("/onboarding")
+    }
+  }
 
   return (
     <div className="flex min-h-svh">
