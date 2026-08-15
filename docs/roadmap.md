@@ -35,4 +35,6 @@ previous one is reported complete.
 
 ## Status
 
-**Phase 1 — Project foundation: in progress.**
+**Phase 1 — Project foundation: complete.**
+**Phase 2 — Authentication and multi-tenancy: complete.**
+**Phase 3 — Database and RLS: next.**
