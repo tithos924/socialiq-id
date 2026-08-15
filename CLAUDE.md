@@ -82,6 +82,5 @@ docs/                   Architecture, database, security, roadmap docs
 
 ## Current status
 
-Phase 1 (Project Foundation) and Phase 2 (Authentication & Multi-tenancy)
-complete. See `docs/roadmap.md`. Next: Phase 3 (Database and RLS —
-business_profiles, social_accounts, and the rest of the core schema).
+Phases 1–3 complete (foundation, auth/multi-tenancy, full database schema
+with RLS). See `docs/roadmap.md`. Next: Phase 4 (Dashboard UI).
