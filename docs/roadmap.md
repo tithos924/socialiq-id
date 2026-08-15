@@ -38,4 +38,5 @@ previous one is reported complete.
 **Phase 1 — Project foundation: complete.**
 **Phase 2 — Authentication and multi-tenancy: complete.**
 **Phase 3 — Database and RLS: complete.**
-**Phase 4 — Dashboard UI: next.**
+**Phase 4 — Dashboard UI: complete.**
+**Phase 5 — Business profile (onboarding): next.**

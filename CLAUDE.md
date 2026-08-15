@@ -80,7 +80,18 @@ docs/                   Architecture, database, security, roadmap docs
 4. Prefer Supabase migrations over ad-hoc schema edits.
 5. Explain architectural changes before making them.
 
+## Design system
+
+Distinct visual identity, chosen deliberately (not a generic SaaS
+template) — see `docs/design.md` for the full token rationale. In short:
+white/sage canvas, forest-green primary, amber accent, deep ink-green
+sidebar; Space Grotesk for display, Inter for body, JetBrains Mono for
+data/numbers. Signature element: the Social Score rendered as an analog
+instrument dial (`src/components/social-score-dial.tsx`), not a generic
+"big number" card.
+
 ## Current status
 
-Phases 1–3 complete (foundation, auth/multi-tenancy, full database schema
-with RLS). See `docs/roadmap.md`. Next: Phase 4 (Dashboard UI).
+Phases 1–4 complete (foundation, auth/multi-tenancy, full database schema
+with RLS, dashboard UI shell with design system). See `docs/roadmap.md`.
+Next: Phase 5 (Business profile / onboarding flow).
